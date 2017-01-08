@@ -21,7 +21,7 @@ myApp.config(function($routeProvider){
 myApp.directive('customDirective', function(){
    return {
        restrict: 'AECM',
-       template : '<a href="#" class="list-group-item">Akshay Gore<p>420 Nord Avenue, Chico 95926</p></a>',
+       templateUrl : 'directives/datapage.html',
        replace: true
    } ;
 });
